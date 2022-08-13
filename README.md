@@ -1,7 +1,7 @@
 # mahaahaadi.github.io
 
 
-<!DOCTYPE html>
+<html>
 <head>
 <style>
 input {
@@ -44,7 +44,7 @@ function myFunction() {
   navigator.clipboard.writeText(copyText.value);
   
   /* Alert the copied text */
-  alert("You have successfully copied my number : " + copyText.value);
+   alert("You have successfully copied my number " + copyText.value + ", save it else I can't see your status 😂");
 }
 </script>
 
