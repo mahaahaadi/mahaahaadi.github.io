@@ -2,7 +2,6 @@
 
 
 <!DOCTYPE html>
-<html>
 <head>
 <style>
 input {
@@ -10,9 +9,10 @@ input {
 }
 
 button {
-	width:  100%;
+    width:  100%;
     color:  #008CBA;
     border: 2px solid #fff;
+    background-color:#fff;
 }
 
 
