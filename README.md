@@ -29,7 +29,7 @@ button:hover {
 <body>
 
 <h1><input type="text" value="8660720750" id="myInput" disabled style=" background-color:#fff display:block "></h1>
-<button onclick="myFunction()">Click to Copy my number..</button>
+<button onclick="myFunction()">Click to Copy my number</button>
 
 <script>
 function myFunction() {
