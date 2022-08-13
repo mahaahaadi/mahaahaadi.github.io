@@ -29,10 +29,10 @@ button:hover {
 <body>
 
 <h1><input type="text" value="8660720750" id="myInput" disabled style=" background-color:#fff display:block "></h1>
-<button onclick="myFunction()">Click to Copy my number....</button>
+<button onclick="myFunction()">Click to Copy my number..</button>
 
 <script>
-function copyToClipboard() {
+function myFunction() {
    text = 8660720750;
    const elem = document.createElement('textarea');
    elem.value = text;
@@ -41,7 +41,7 @@ function copyToClipboard() {
    document.execCommand('copy');
    document.body.removeChild(elem);
    
-   alert("You have successfully copied my number " + copyText.value + ", save it else I can't see your status 😂");
+   alert("You have successfully copied my number " + text + ", save it else I can't see your status 😂");
 }
 </script>
 
